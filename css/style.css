@@ -24,3 +24,32 @@ form {
     border-radius: 10px;
     padding: 10px;
 }
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.radio-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-button input[type="radio"] {
+    display: none;
+}
+
+.man {
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+}
+
+.women {
+    border: 1px solid orange;
+}
+
+fieldset {
+    border: 0;
+}
