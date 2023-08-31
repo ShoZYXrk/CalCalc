@@ -15,5 +15,12 @@ section {
 
 h1 {
     text-align: center;
-    color: aliceblue;
+    color: white;
+    font-size: 60px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
