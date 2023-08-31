@@ -24,7 +24,8 @@ h1 {
     font-size: 60px;
 }
 
-h2 {
+h2 { display: block;
+    font-size: 30px;
     font-family: "pt-sans-caption-bold";
 }
 
@@ -67,8 +68,16 @@ fieldset {
     color: orange;
 }
 
-.UpText1 input[type="radio"]:checked {
+.UpText1 input[type="radio"]:checked+label {
     color: orange;
+}
+
+.phis-parametrs {
+    font: optional 30px;
+}
+
+legend {
+    font-size: 30px;
 }
 
 p {
