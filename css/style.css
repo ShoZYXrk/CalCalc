@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "pt-sans-caption-bold";
+    src: url(fonts/pt-sans-caption-bold.woff2);
+}
+
 body {
     background-image: url(../img/backgrounf.jpg);
     background-size: cover;
@@ -17,6 +22,10 @@ h1 {
     text-align: center;
     color: white;
     font-size: 60px;
+}
+
+h2 {
+    font-family: "pt-sans-caption-bold";
 }
 
 form {
@@ -52,4 +61,17 @@ li {
 
 fieldset {
     border: 0;
+}
+
+.UpText1 {
+    color: orange;
+}
+
+.UpText1 input[type="radio"]:checked {
+    color: orange;
+}
+
+p {
+    color: gray;
+    font-family: pt-sans-caption-bold;
 }
