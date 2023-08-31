@@ -1,0 +1,19 @@
+body {
+    background-image: url(../img/backgrounf.jpg);
+    background-size: cover;
+}
+
+main {
+    margin: 0 auto;
+    height: 200px;
+    width: 500px;
+}
+
+section {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
